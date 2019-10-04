@@ -1,0 +1,565 @@
+@charset "Shift_JIS"; 
+
+/*Corner.css*/
+
+body{
+    color: #666666;
+    text-align:left;
+    background-image:url(Images/bg_10.jpg);
+    background-repeat:repeat;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+#wrapper {
+	width: 980px;
+	margin: auto;
+}
+#associate{
+	color: #009688;
+	font-weight: bold;
+	font-size: 11px;
+	border: 0;
+}
+.tdsubject{
+	width: 70px;
+	text-align: left;
+	border: 0;
+
+}
+.tdname{
+	width: 400px;
+	text-align: left;
+	border: 0;
+
+}
+
+#nav{
+	margin-top: 250px;
+	margin-right: 40px;
+	width: 160px;
+	float: left;
+	margin-bottom:50px; 
+} 
+#try{
+	width: 200px;
+
+}
+.button{
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	line-height: 25px;
+	position: relative;
+	display: block;
+	width: 160px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 8px;
+	cursor: pointer;
+	padding: 15px 15px 15px 25px;
+	margin-bottom: 5px;	
+	text-align: left;
+	font-family: 'ヒラギノ角ゴ Pro W6'
+; 
+}
+.button:hover {
+	background-color: rgba(255, 255, 255, .7);
+	color: black;
+	font-weight: bold;
+}
+#try ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/*
+#button a{
+	text-decoration: none;
+	display: block;
+	width: 160px;
+
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	text-align: left;
+	padding: 20px 15px 20px 25px;
+
+	margin-bottom: 1px;
+	color: #2F4F4F;	
+	background-color: #7FFF00;
+/*	color: #666;
+	background-color: #f5f5f5;
+*/
+/*	border-top: 1px solid #dcdcdc;
+	border-right: 1px solid #999;
+	border-bottom: 2px solid #999;
+	border-left: 1px solid #dcdcdc;
+	border-radius: 6px;*/
+/*}*/
+/*
+#button ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#button a:hover{
+	background-color: #2F4F4F;
+	color: white;
+
+/*	background-color: #b0c4de;
+	color: white;
+*/
+}
+
+#jafs{
+	width: 200px;
+	margin-bottom: 0px;
+	border-top: 1px solid #dcdcdc;
+	border-right: 1px solid #999;
+	border-bottom: 2px solid #999;
+	border-left: 1px solid #dcdcdc;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+
+#jafs:hover{
+	border: 3px solid #4682b4;
+}
+
+
+.introduce{
+	padding: 50px,40px,30px,50px;
+	margin: 0,0,5px,10px;
+	font-weight: bold;
+	color: #778899;
+}
+
+.introduce2{
+	padding: 50px,40px,30px,50px;
+	margin-top: 30px;
+	font-weight: bold;
+	color: #778899;
+}
+
+img{
+	width: 200px;
+	border-top: 1px solid #dcdcdc;
+	border-right: 1px solid #999;
+	border-bottom: 2px solid #999;
+	border-left: 1px solid #dcdcdc;
+	border-radius: 4px;
+	margin-bottom: 5px;
+}
+/*
+img:hover{
+	border: 3px solid #4682b4;
+}
+*/
+.cbtn{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+#mlbtn{
+	line-height: 20px;
+}
+
+
+#contents{
+	width: 780px;
+	float: right;
+	margin-bottom: 20px;
+}
+#SMlogo{
+	width: 740px;
+	margin-top: 40px;
+	margin-left: 40px;
+
+	border-radius: 2px;
+}
+
+#contents2{
+	margin-bottom: 50px;
+	border-top: 1px solid #dcdcdc;
+	border-right: 1px solid #999;
+	border-bottom: 2px solid #999;
+	border-left: 1px solid #dcdcdc;
+	border-radius: 4px;
+	background-image:url(Images/bg13.gif);
+    background-repeat:repeat;
+	margin-left: 40px;
+	margin-top: -5px;
+	padding-bottom: 50px;
+}
+
+#top{
+	width: 650px;
+	float: right;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	border-radius: 8px;
+	border: none;
+}
+
+.topjaxa{
+	margin-bottom: 30px;
+}
+
+h3{
+	text-align: left;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	color: #555555;
+	font-weight: bolder;
+}
+
+h4{
+	margin-left: 40px;
+	font-weight: bold;
+	color: #3c3f4c;
+}
+
+p{
+	text-align: left;
+	margin-top: 5px;
+	margin-right: 40px;
+	margin-left: 40px;
+	line-height: 22px;
+	font-size: 14px;
+	color: #555555;
+}
+
+.small{
+	font-size: 13px;
+}
+
+
+table{
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #555555;
+	margin-left: 50px;
+	border: none;
+	font-weight: bold;
+	margin-bottom: 10px;
+	width: 500px;
+}
+
+#small2{
+	font-size: 12px;
+	text-align: left;
+	border: none;
+	width: 280px;
+	margin-left: 400px;
+	font-weight: normal;
+	line-height: 14px;
+}
+
+.small3{
+	font-size: 13px;
+	text-align: right;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.co{
+	width: 50px;
+	border: none;
+}
+
+.co2{
+	width: 250px;
+	border: none;
+}
+
+
+
+
+
+h1{
+	margin-left: 20px;
+}
+
+.line{
+	display: block;
+	background-color: #4169e1;
+	padding: 5px,5px,5px,5px;
+	margin-left: 0;
+	color: #4169e1;
+}
+
+.block{
+	display: block;
+	background-color: #dcdcdc;
+	color: #333631;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.block2{
+	display: block;
+	color: white;
+	background-color: #4169e1;
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#atc1{
+	color: white;
+	background-color: #4169e1;
+	margin-bottom: 50px;
+}
+
+#atc2{
+	color: white;
+	background-color: #4169e1;
+	margin-top: 40px;
+}
+
+.link-atc{
+	text-decoration: none;
+}
+
+.link-atc:hover{
+	color: #999;
+	text-decoration: none;
+}
+
+#SRC{
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-left: 100px;
+	width: 500px;
+	border-top: 1px solid #999;
+	border-right: 2px solid #696969;
+	border-bottom: 2px solid #696969;
+	border-left: 1px solid #999;
+}
+
+#SRC:hover{
+	border: 3px solid #4682b4;
+}
+
+h5{
+	font-weight: bold;
+	margin-left: 30px;
+	color: #555555;
+}
+
+table{
+	width: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px #666 solid;
+	table-layout: fixed;
+	line-height: 22px;
+	border-collapse: collapse; 
+}
+
+td,tr{
+	width: 50%;
+	border: 1px black solid;
+	table-layout: fixed;
+}
+
+table p{
+	margin-left: 10px;
+}
+
+#address{
+	width: 600px;
+}
+#jaxa_text{
+	width: 500px;
+	float: left;
+}
+#jaxa_photo{
+	
+	float: left;
+}
+.jaxa_photo{
+	width: 150px;
+}
+.atc{
+	width: 30%;
+}
+
+#jtable{
+	width: 650px;
+	line-height: 22px;
+}
+
+.jtable{
+	width: 290px;
+}
+
+#map{
+	display: block;
+	width: 620px;
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	border: none;
+}
+
+embed {
+	width:650px;
+	height: 900px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2{
+	text-align: center;
+}
+
+h5{
+	margin-left: 40px;
+}
+#contact table,tr,td{
+	border: 0;
+	width: auto;
+}
+
+/*
+#contact{
+	text-align: left;
+}
+
+#contact table{
+	margin-top: none;
+	margin-bottom: 50px;
+	margin-left: 70px;
+	line-height: 28px;
+	font-size: 24px;
+}
+
+#contact h3{
+	margin-bottom: 0;
+	text-align: left;
+	margin-left: 70px;
+}*/
+
+.link{
+	font-size: 14px;
+	margin-left: 0px;
+	color: #4169e1;
+	text-decoration: none;
+}
+
+.link:hover{
+	color: #999;
+}
+
+#robot{
+	margin-bottom: 60px;
+}
+
+
+
+
+.robots p{
+	text-align: left;
+	margin-right: 30px;
+	line-height: 26px;
+	font-size: 13px;
+}
+
+.robot-p{
+	text-align: left;
+	margin-right: 30px;
+	line-height: 26px;
+	font-size: 13px;
+}
+
+#kohga3{
+	margin-bottom: 20px;border-style: none;
+}
+
+#kohga3:hover{
+	border-style: none;
+}
+
+#kamui{
+	margin-top: 20px;
+	border-style: none;
+}
+
+#kamui:hover{
+	border-style: none;
+}
+
+#ashigaru{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	border-style: none;
+}
+
+#ashigaru:hover{
+	border-style: none;
+}
+
+#nejihebi{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: none;
+}
+
+#nejihebi:hover{
+	border-style: none;
+}
+.bold{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.bold2{
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-left: 40px;
+}
+
+#o-table{
+	margin-top: 0px;
+	margin-left: 40px;
+}
+
+.kyosan{
+	width: 650px;
+	border-style: none;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.kyosan:hover{
+	border-style: none;
+}
+
+#kouenn{
+	background-color: white;
+	border-collapse: collapse; 
+	border: 1px solid black;
+	text-align: center;
+}
+#kouenn tr,td,th{
+	border: 1px solid black;
+	}
+
+/* ボタンデザイン */
+a.btn{border-bottom:none!important;}
+a.btn.black{border:2px solid black; padding:10px 20px; display:inline-block;  margin:5px 0; color:black; border-radius:3px;}
+a.btn.black:hover{background-color:black; color:white;}
+a.btn.white{border:2px solid #ffffff; padding:10px 20px; display:inline-block;  margin:5px 0; color:#ffffff; border-radius:3px; font-weight:bold;}
+a.btn.white:hover{background-color:#ffffff; color:#000000;}
+a.btn.color1{padding:20px 30px; color:white; margin:5px 0; display:inline-block; border-radius:30px; background:linear-gradient(45deg, #ff8b03, #e942ff); box-shadow:0px 0px 10px #6d6d6d; font-weight:bold; transition:0.3s;}
+a.btn.color1:hover{box-shadow:0px 0px 2px #6d6d6d; background:linear-gradient(45deg, #e942ff, #ff8b03);}
+a.btn.color2{padding:20px 30px; color:white; margin:5px 0; display:inline-block; border-radius:30px; background:linear-gradient(45deg, #31c0ff, #79ffb7); box-shadow:0px 0px 10px #6d6d6d; font-weight:bold; transition:0.3s;}
+a.btn.color2:hover{box-shadow:0px 0px 2px #6d6d6d; background:linear-gradient(45deg, #79ffb7, #31c0ff);}
+/* //ボタンデザイン */
